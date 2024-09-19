@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.title("Excel Reader Calculator App")
-uploaded_file = st.file_uploader("Upload your Excel file", type=['xlsx', 'xls']
+uploaded_file = st.file_uploader("Upload your Excel file", type=['xlsx', 'xls'])
                                  
 df = None
 
